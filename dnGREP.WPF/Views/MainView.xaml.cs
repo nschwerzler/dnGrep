@@ -163,11 +163,6 @@ namespace dnGREP.WPF
             }
         }
 
-        private void Window_Activated(object sender, EventArgs e)
-        {
-            this.inputData.ChangePreviewWindowActivation(true);
-        }
-
         private void Window_StateChanged(object sender, EventArgs e)
         {
             inputData.ChangePreviewWindowState(this.WindowState);
